@@ -48,7 +48,7 @@ Sample code:
     odr::loadFile(<filename.xml>, odrData); 
     
     // pointer to the ODR data
-    odr1_5::OpenDRIVE *odrr = odrFile.OpenDRIVE1_5.get();
+    odr_1_5::OpenDRIVE *odrr = odrData.OpenDRIVE1_5.get();
    
     // access the header
     const auto header = odrr->sub_header.get();
